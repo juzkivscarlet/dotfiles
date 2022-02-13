@@ -1,0 +1,4 @@
+# package.accept_keywords# required by sys-apps/bat (argument)
+=sys-apps/bat-0.18.3 ~amd64
+# required by dev-util/github-cli (argument)
+=dev-util/github-cli-2.4.0 ~amd64
