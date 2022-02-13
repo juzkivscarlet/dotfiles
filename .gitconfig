@@ -1,0 +1,10 @@
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[user]
+	name = scarlet juzkiv
+	email = $email
+[credential]
+	helper = cache
+
