@@ -1,10 +1,19 @@
+#	~/.gitconfig
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	name = scarlet juzkiv
+	email = <email>
 [core]
 	editor = vim
 [init]
 	defaultBranch = main
-[user]
-	name = scarlet juzkiv
-	email = $email
+[color]
+	ui = true
 [credential]
 	helper = cache
 

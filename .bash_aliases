@@ -7,11 +7,6 @@ alias c="clear"
 alias cat="bat"
 alias cp="cp --verbose"
 
-alias emerge="time sudo emerge"
-alias everbose="time sudo emerge --jobs=1 --verbose"
-
-alias firefox="/usr/bin/firefox-bin &"
-
 alias ls="ls --almost-all --color=always --file-type --group-directories-first --ignore-backups"
 alias mkdir="mkdir --parents --verbose"
 alias mv="mv --verbose"
@@ -28,7 +23,7 @@ alias rm="rm --verbose"
 
 alias vi="vim"
 
-# emerge
+# emerge (gentoo only)
 alias emerge="time sudo emerge"
 alias everbose="time sudo emerge --jobs=1 --verbose"
 alias sync="time emerge --sync"
