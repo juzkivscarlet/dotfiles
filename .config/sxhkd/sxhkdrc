@@ -14,8 +14,8 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 # firefox
-super + f
-	/usr/bin/firefox-bin
+super + shift + @space
+	firefox &
 
 # bspwm hotkeys
 

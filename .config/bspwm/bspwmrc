@@ -1,6 +1,7 @@
 #!/bin/sh
 #	~/.config/bspwm/bspwmrc
 MOD=Mod4
+sxhkd -c /home/jscarlet/.config/sxhkd/sxhkdrc &
 
 #	reset config
 bspc rule -r "*"
@@ -14,12 +15,12 @@ ws4="other"
 
 bspc monitor -d $ws1 $ws2 $ws3 $ws4
 xrandr --output eDP-1 --mode 2736x1824 &
-feh --bg-center /home/jscarlet/imgs/gentoo_trans_wp.png
+feh --bg-fill /home/jscarlet/imgs/fuckyeah.jpg &
 
 #	autostart
-killall "nm-applet"
-nm-applet &
-xrdb ~/.Xresources &
+#killall "nm-applet"
+#nm-applet &
+#xrdb ~/.Xresources &
 killall "picom"
 picom &
 killall "polybar"
@@ -52,6 +53,6 @@ bspc config presel_feedback_color	"#5e81ac"
 bspc config urgent_border_color		"#dd2727"
 
 #bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a Firefox desktop='^2'
+#bspc rule -a Firefox desktop='^2'
 #bspc rule -a mplayer2 state=floating
 
