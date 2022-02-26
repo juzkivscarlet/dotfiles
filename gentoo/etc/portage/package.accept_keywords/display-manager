@@ -1,0 +1,5 @@
+gui-libs/display-manager-init
+sys-apps/sysvinit
+x11-apps/xinit
+x11-base/xorg-server
+
